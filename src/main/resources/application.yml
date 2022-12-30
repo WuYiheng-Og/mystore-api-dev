@@ -1,0 +1,13 @@
+server:
+  port: 8099
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/mystore?characterEncoding=utf-8&serverTimeZone=GMT%2B8
+    username: root
+    password: rootatcsu
+    driver-class-name: com.mysql.jdbc.Driver
+
+#mybatis-plus
+logging:
+  level:
+    com.mystore.mystoreapidev.persistence: trace
